@@ -1,25 +1,23 @@
+
 $(document).ready(function(){
-    
-  var questions = [
-    {
-    question_1: "put question here",
-    answers_1: [ "option1",
-                 "option2" ],
-    correct_answer_1: "option1"
-    },
-    {
-    question_2: 'question 2?',
-    answers_1: [ "option1",
-                 "option2" ],
-    correct_answer_2: "option1"
-    },
-    {
-    question_3: 'question 2?',
-    answers_1: [ "option1",
-                 "option2" ],
-    correct_answer_3: "option1"
-    }
-  ];
+
+  var questions = (function () {
+    //var questions = null;
+    $.ajax({
+        'async': false,
+        'global': false,
+        'url': 'questions.json',
+        'dataType': "json",
+        'success': function (data) {
+            questions = data;
+        }
+    });
+    return questions;
+  })();
+
+  console.log(questions[0]);
+  $('h1').append("test");
+
   var answer_1 = questions[0].correct_answer_1;
   var answer_2 = questions[1].correct_answer_2;
   var answer_3 = questions[2].correct_answer_3;
