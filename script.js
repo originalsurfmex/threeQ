@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
 
   var questions = (function () {
@@ -15,8 +14,7 @@ $(document).ready(function(){
     return questions;
   })();
 
-  console.log(questions[0]);
-  $('h1').append("test");
+  console.log('questions.json is a ' + questions[0]);
 
   var answer_1 = questions[0].correct_answer_1;
   var answer_2 = questions[1].correct_answer_2;
