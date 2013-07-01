@@ -1,9 +1,9 @@
 [
     {
-          "question": "put question here",
-          "answers": [ "option1",
-                       "option2" ],
-          "correct_answer": "option1"
+        "question": "put question here",
+        "answers": [ "option1",
+                     "option2" ],
+        "correct_answer": "option1"
 
     },
     {

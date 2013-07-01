@@ -62,13 +62,17 @@ $(document).ready(function(){
 
 //variables
 
-  var answer_1;
-  var answer_2;
-  var answer_3;
+  var answer_1; // answer[0]
+  var answer_2; // answer[1]
+  var answer_3; // answer[2]
   var score_q1 = 0;
   var score_q2 = 0;
   var score_q3 = 0;
   var tryagain = 'Nothing is checked, please check one';
+
+  // write a script that:
+  // 1. finds out how many #q div's there are
+  // 2. begins hiding and showing them all based on the activities below
 
 // start by showing question 1
   $('#q2').hide();
