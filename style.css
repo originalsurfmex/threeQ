@@ -1,0 +1,45 @@
+* {
+  font-family: Helvetica;
+  position: relative;
+  background: white;
+}
+
+div {
+  position: relative;
+}
+
+h1 {
+  font-family: Garamound;
+  text-align: center;
+  border-radius: .25em;
+  border: 1px black solid;
+  width: 3em;
+  height: 2em;
+  padding-top: .5em;
+  position: relative;
+}
+
+#results {
+  top: 1em;
+  bottom: 1em;
+  color: Black;
+  width: 5em;
+  text-align: left;
+  font-family: Garamond;
+  font-size: 24px;
+  position: relative;
+}
+
+button {
+  top: 2.5em;
+  bottom: 1em;
+  color: white;
+  height: 2em;
+  width: 5em;
+  background-color: gray;
+  text-align: center;
+  border-radius: 1em;
+  padding-bottom: 2px;
+  font-family: Helvetica;
+  position: relative;
+}

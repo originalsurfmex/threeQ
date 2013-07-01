@@ -1,0 +1,21 @@
+[
+    {
+          "question": "put question here",
+          "answers": [ "option1",
+                       "option2" ],
+          "correct_answer": "option1"
+
+    },
+    {
+        "question": "question 2?",
+        "answers": [ "option1",
+                     "option2" ],
+        "correct_answer": "option1"
+    },
+    {
+        "question": "question 2?",
+        "answers": [ "option1",
+                     "option2" ],
+        "correct_answer": "option1"
+    }
+]
