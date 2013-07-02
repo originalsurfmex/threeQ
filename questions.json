@@ -1,20 +1,23 @@
 [
     {
-        "question": "put question here",
-        "answers": [ "option1",
+        "part": "Part 1",
+        "question": "question 1?",
+        "options": [ "option1",
                      "option2" ],
         "correct_answer": "option1"
 
     },
     {
+        "part": "Part 2",
         "question": "question 2?",
-        "answers": [ "option1",
+        "options": [ "option1",
                      "option2" ],
         "correct_answer": "option1"
     },
     {
-        "question": "question 2?",
-        "answers": [ "option1",
+        "part": "Part 3",
+        "question": "question 3?",
+        "options": [ "option1",
                      "option2" ],
         "correct_answer": "option1"
     }
