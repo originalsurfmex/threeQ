@@ -2,23 +2,23 @@
     {
         "part": "Part 1",
         "question": "question 1?",
-        "options": [ "option1",
-                     "option2" ],
-        "correct_answer": "option1"
+        "options": [ "question 1 - option1",
+                     "question 1 - option2"],
+        "correct_answer": 0
 
     },
     {
         "part": "Part 2",
         "question": "question 2?",
-        "options": [ "option1",
-                     "option2" ],
-        "correct_answer": "option1"
+        "options": [ "question 2 - option1",
+                     "question 2 - option2" ],
+        "correct_answer": 0
     },
     {
         "part": "Part 3",
         "question": "question 3?",
-        "options": [ "option1",
-                     "option2" ],
-        "correct_answer": "option1"
+        "options": [ "question 3 - option1",
+                     "question 3 - option2" ],
+        "correct_answer": 0
     }
 ]
